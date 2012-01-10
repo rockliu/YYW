@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @link.name %>
+</p>
+
+<p>
+  <b>Summary:</b>
+  <%= @link.summary %>
+</p>
+
+<p>
+  <b>Cover:</b>
+  <%= @link.cover %>
+</p>
+
+<p>
+  <b>Template:</b>
+  <%= @link.template %>
+</p>
+
+<p>
+  <b>Order:</b>
+  <%= @link.order %>
+</p>
+
+<p>
+  <b>Hide:</b>
+  <%= @link.hide %>
+</p>
+
+
+<%= link_to 'Edit', edit_link_path(@link) %> |
+<%= link_to 'Back', links_path %>
